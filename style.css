@@ -1,0 +1,391 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	color:#000;
+	text-align:center;
+	font-size:12px;
+	background-color: #FFF;
+	min-width:1000px;
+	height:100%;
+	min-height:100%;
+}
+#wrapper{
+width:710px;
+height:auto;
+min-height:100%;
+margin:0 auto;
+border:1px solid #ccc;
+}
+#container{
+	margin:0 auto;
+	text-align:left;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    color: #000;
+}
+#header{border-top:5px solid #b11e28;background-color:#fff;text-align:left;}
+#header img{
+padding-left:20px;
+}
+form#mailform {
+	padding: 0px 15px;
+	clear: both;
+}
+
+form#mailform label {
+	cursor: pointer;
+	display: block;
+	padding: 2px;
+	width: 49%;
+	margin-bottom: 1px;
+	text-decoration: none;
+	float: left;
+	font-size:12px;
+}
+
+#notice{
+	overflow:hidden;
+	text-align:center;
+	font-size:14px;
+    margin:0 20px 25px;
+}
+#notice p#privacypolicy{
+	background-color:#FAF7F0;
+	padding:12px;
+	line-height:1.8em;
+	color:#000;
+	border:solid 1px #F1EAD6;
+	text-align:left;
+}
+
+#notice #contentsCheck{
+	background-color:#FAF7F0;
+	padding:12px;
+	line-height:1.8em;
+	color:#000;
+	border:solid 1px #F1EAD6;
+	text-align:left;
+	overflow:hidden;
+}
+
+#notice #contentsCheck p{
+	float:left;
+	width:480px;
+}
+
+#notice #contentsCheck .printBtn1{
+	float:right;
+	margin:10px;
+}
+
+#notice p#accedence{
+	padding:12px;
+}
+
+#notice span{
+	display:block;
+	float:right;
+	font-size:12px;
+	background:url(image/icon.gif) no-repeat left center;
+	padding: 0 0 0 16px;
+	margin:5px 0 0;
+}
+
+#notice span a{
+	color:#C61629;
+}
+
+span.attention{
+	display:block;
+	margin:-20px 0 30px;
+	font-size:12px;
+}
+table.form {
+	border-collapse:collapse;
+	width:710px;
+	border-top:1px #D1D1D1 solid;
+	margin:0 auto;
+}
+form#mailform label {
+	cursor: pointer;
+	display: block;
+	padding: 2px;
+	width: 49%;
+	margin-bottom: 1px;
+	text-decoration: none;
+	float: left;
+	font-size:12px;
+}
+table.form th,table.form td {
+	border-bottom:1px #D1D1D1 solid;
+	color:#000;
+	padding:15px;
+	line-height:24px;
+	font-size:14px;
+	text-align:left;
+}
+table.form th{
+	width:200px;
+	border-left:1px #D1D1D1 solid;
+	border-right:1px #D1D1D1 solid;
+	background-color: #EBEBEB;
+}
+
+table.form th em{
+	color:#C61629;
+	font-size:12px;
+	font-style:normal;
+}
+
+table.form td{
+	border-right: 1px #D1D1D1 solid;
+	background-color:#F5F5F5;
+}
+
+table.form td span{
+	font-size:12px;
+	line-height:16px;
+}
+table.form #input_ltfs3000{
+	display: none;
+}
+table.form #input_ver2{
+	display: none;
+}
+
+
+/*テキストボックスサイズ*/
+.tipped {
+	width:440px;
+	color: #666;
+	line-height:18px;
+}
+
+#formBtn{
+	border-top:dashed 1px #7A7A7A;
+	padding:25px 0 0;
+	margin:0 0 50px;
+	overflow:hidden;
+}
+
+#formBtn .checkBtn{
+	width:220px;
+	margin:0 0 0 125px;
+	float:left;
+}
+
+#formBtn input#kakunin {
+	width:220px;
+	height:70px;
+	background:url(image/checkBtn.png) no-repeat 0 0;
+	border:0;
+	cursor:pointer;
+}
+
+#formBtn input#send {
+	width:220px;
+	height:70px;
+	background:url(image/sendBtn.png) no-repeat 0 0;
+	border:0;
+	cursor:pointer;
+}
+
+#formBtn .resetBtn{
+	width:220px;
+	margin:0 125px 0 0;
+	float:right;
+}
+
+#formBtn input#reset {
+	width:220px;
+	height:70px;
+	background:url(image/resetBtn.png) no-repeat 0 0;
+	border:0;
+	cursor:pointer;
+}
+
+#formBtn input#back {
+	width:220px;
+	height:70px;
+	background:url(image/backBtn.png) no-repeat 0 0;
+	border:0;
+	cursor:pointer;
+}
+
+#formBtn .printBtn2{
+	width:170px;
+	margin:0 auto;
+	clear:both;
+	padding:20px 0 0;
+}
+
+#contactBanner{
+	margin:0 0 70px;
+	text-align:center;
+}
+
+p#thanks{
+	margin:100px 0 0;
+	text-align:center;
+	font-size:16px;
+}
+
+p#thanks img{
+	margin: 0 0 50px;
+	text-align:center;
+	font-size:16px;
+}
+
+#inquiries{
+	margin:40px 0;
+	clear:both;
+	border:solid 1px #DFE3EA;
+	border-radius:5px;
+	padding:15px 25px;
+	background:url(../common/image/contact_bg.png) repeat-x 0 0;
+	text-align:center;
+}
+
+#inquiries h4{
+	padding:0 0 5px;
+	margin:0 0 15px;
+	border-bottom:solid 1px #E1E1E1;
+	text-align:left;
+}
+
+#products{
+	background-color:#F5F5F5;
+	margin:0 10px 30px;
+	padding:15px;
+	text-align:left;
+	font-size:14px;
+	overflow:hidden;
+}
+
+#products span{
+	display:block;
+	text-align:right;
+	padding:5px 0 0;
+}
+
+table.products-main{
+	margin:0 10px 15px;
+	border-collapse:collapse;
+	width:720px;
+}
+
+table.products-main tr.listTitle,
+table.products-main tr.listTitle td{
+	background-color: #EBEBEB;
+	text-align:center;
+}
+
+table.products-main th,
+table.products-main td{
+	border:1px #D1D1D1 solid;
+	color:#000;
+	padding:10px;
+	line-height:1.5em;
+	font-size:12px;
+	text-align:left;
+}
+
+table.products-main td.{
+	border:1px #D1D1D1 solid;
+	color:#000;
+	padding:10px;
+	line-height:1.5em;
+	font-size:12px;
+	text-align:left;
+}
+
+p#bikou{
+	padding:0 10px 40px 10px;
+}
+
+#constitution{
+	padding:0 10px;
+	font-size:14px;
+}
+
+#constitution h3{
+	background-color: #EBEBEB;
+	padding:10px;
+	margin:0 0 10px;
+	font-size:14px;
+}
+
+#constitution p{
+	padding:0 10px 10px;
+}
+
+#constitution dl,
+#constitution ol{
+	margin:0 0 30px;
+}
+
+#constitution ol#codicil{
+	margin:0 25px;
+}
+
+#constitution dt{
+	float:left;
+	padding:5px 10px;
+	clear:both;
+	border-bottom:1px #D1D1D1 dashed;
+	font-weight:bold;
+}
+
+#constitution dd{
+	padding:5px 10px;
+	border-bottom:1px #D1D1D1 dashed;
+}
+
+#constitution ol li{
+	padding:5px 10px;
+}
+
+#constitution span#right{
+	text-align:right;
+	padding:0 0 50px;
+	display:block;
+}
+
+.btn-real-dent {
+  /*周りの凹み*/
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: rgba(3, 169, 244, 0.54);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  background: #f7f7f7;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.08);
+}
+.btn-real-dent i {
+  /*ボタン自体*/
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  left: 10px;
+  top: 9px;
+  border-radius: 50%;
+  font-size: 40px;
+  background-image: linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+  border-bottom: solid 2px #b5b5b5;
+}
+  
+.btn-real-dent .fa:active {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+  border-bottom: solid 2px #d8d8d8;
+}
